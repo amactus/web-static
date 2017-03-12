@@ -2,6 +2,15 @@
 layout: default
 title: Stratus Network - Home
 ---
+<script type="text/javascript">
+	       new Clipboard('#btn');/* global Clipboard*/
+	       $.getJSON( "https://mcapi.us/server/status?ip=play.stratus.network", function( data ) {
+	           $('#players').append(data.players.now);
+	       }); /* gets JSON return from mcapi for players */
+	       $(document).ready(function() {
+	           $('#bounce').transition('jiggle');
+	       });
+</script>
 <br>
 <br>
 <br>
