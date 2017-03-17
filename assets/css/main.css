@@ -25,10 +25,18 @@ h1 {
 	font-size: 18px;
 	color: rgba(0, 0, 0, 0.870588);
 }
-a.nav {
+a:link {
 	text-decoration: none;
-}
 
-a.nav:hover {
-	text-decoration:none;	
+}
+a:visited {
+	text-decoration: none;
+
+}
+a:hover {
+	    background-color: #e8e8e8;
+}
+.card {
+	width:100px;
+	height:129px;
 }
