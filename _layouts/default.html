@@ -35,7 +35,23 @@
 			<div class="four wide column">
 				<h4 class="ui header">Organisation</h4>
 				<div class="ui vertical buttons">
-					<a class="ui button basic" href="mailto:networkstratus@gmail.com"><i class="remove user icon"></i>Report a Player</a> <a class="ui button basic" href="mailto:stratusappeals@gmail.com"><i class="talk icon"></i>Appeal a Punishment</a> <a class="ui button basic" href="apply"><i class="user icon"></i>Apply for Staff</a>
+					<a class="ui button basic" href="rules"><i class="book icon"></i>Server Rules</a> <a class="ui button basic" href="#" onclick="$('.ui.modal').modal('show');">><i class="talk icon"></i>Appeal a Punishment</a> <a class="ui button basic" href="apply"><i class="user icon"></i>Apply for Staff</a>
+				</div>
+				<div class="ui modal">
+					<i class="close icon"></i>
+					<div class="header">Appeal a Punishment</div>
+					<div class="content">
+						<div class="description">
+							<p>Send an email to the address linked below, with the following:</p>
+							<ul>
+								<li>Your Minecraft usernanme</li>
+								<li>The reason for your punishment</li>
+								<li>Why you feel this punishment is incorrect</li>
+							</ul>
+							<p>Include any evidence you may have</p>
+							<input id="Address" readonly type="text" value="stratusappeals@gmail.com"> <button class="ui icon button" data-clipboard-target="#ip" id="btn"><i class="blue clipboard icon"></i></button>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="four wide column">
