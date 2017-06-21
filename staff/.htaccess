@@ -1,4 +1,4 @@
-AuthUserFile /web-static/staff/.htpasswd
+AuthUserFile web-static/staff/.htpasswd
 AuthType Basic
 AuthName "Staff Info"
 Require valid-user
